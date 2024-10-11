@@ -1,0 +1,64 @@
+.container {
+  width: 260px;
+  padding: 10px 10px 10px;
+  border-radius: 20px;
+}
+.input-item {
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.form-field-label {
+  color: rgb(95, 99, 104);
+  display: block;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 12px;
+  margin-bottom: 8px;
+}
+
+.form-field-input {
+  height: 32px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: none;
+  cursor: text;
+  color: rgb(32, 33, 36);
+  outline-color: #ea4c89;
+  background-color: rgb(241 243 244);
+}
+.input-item:has(.eye) .form-field-input {
+  padding-right: 40px;
+}
+.eye {
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  cursor: pointer;
+  width: 18px;
+}
+.action {
+  text-align: right;
+  margin: 20px 0 0;
+}
+.main-button {
+  font-size: 14px;
+  border: none;
+  width: 60px;
+  color: #fff;
+  border-radius: 4px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #ea4c89;
+  outline: none;
+}
+.main-button:hover {
+  background-color: #f082ac;
+}
+.main-button.reset {
+  background-color: rgb(102 104 107);
+}
+.main-button.oa {
+  background-color: rgb(25 152 226);
+}

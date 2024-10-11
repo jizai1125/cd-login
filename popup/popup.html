@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Popup</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-item">
+        <div class="form-field-label">网址</div>
+        <input
+          id="Url"
+          class="form-field-input"
+          autocomplete="off"
+          aria-label="网址"
+          aria-invalid="false"
+          tabindex="0"
+        />
+      </div>
+      <div class="input-item">
+        <div class="form-field-label">用户名</div>
+        <input
+          id="Username"
+          class="form-field-input"
+          autocomplete="off"
+          aria-label="用户名"
+          aria-invalid="false"
+          tabindex="0"
+        />
+      </div>
+      <div class="input-item">
+        <div class="form-field-label">密码</div>
+        <input
+          id="Password"
+          class="form-field-input"
+          autocomplete="off"
+          aria-label="密码"
+          aria-invalid="false"
+          tabindex="0"
+          type="password"
+        />
+        <img class="eye" id="pwdEye" src="/images/no_eye.png" alt="">
+      </div>
+      <div class="input-item action">
+        <button class="main-button reset" id="resetButton" aria-busy="false">重置</button>
+        <button class="main-button" id="saveButton" aria-busy="false">保存</button>
+        <button class="main-button" id="loginButton" aria-busy="false">去登录</button>
+        <button class="main-button oa" id="oaButton" aria-busy="false">去 OA</button>
+      </div>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>

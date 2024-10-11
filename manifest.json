@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "网络登录",
+  "version": "1.0",
+  "description": "网络登录插件",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "action": {
+    "default_title": "上班啦~",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "activeTab", "storage", "scripting"],
+  "host_permissions": ["*://*/*"]
+}
